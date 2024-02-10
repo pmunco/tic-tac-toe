@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tic-tac-toe.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  
+  
+
+  <main>
+    <h1 id="title">TIC TAC TOE</h1>
+
+    <div id="mother-div">
+    <div class="row">
+      <div class="board-cells-class" id="0">
+        <img class="board-cells-img-O" id="oimg" src="O.svg" alt="">
+        <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="1">
+        <img class="board-cells-img-O"  src="O.svg" alt="">
+        <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="2">
+        <img class="board-cells-img-O" src="O.svg" alt="">
+        <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+    </div>
+
+    
+    <div  class="row">
+      <div class="board-cells-class" id="3">
+        <img class="board-cells-img-O" id="oimg" src="O.svg" alt="">
+        <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="4">
+        <img class="board-cells-img-O"  src="O.svg" alt="">
+      <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="5">
+        <img class="board-cells-img-O"  src="O.svg" alt="">
+      <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+    </div>
+
+
+    <div  class="row">
+      <div class="board-cells-class" id="6">
+        <img class="board-cells-img-O" src="O.svg" alt="">
+      <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="7">
+        <img class="board-cells-img-O"  src="O.svg" alt="">
+      <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+
+      <div class="board-cells-class" id="8"><img class="board-cells-img-O"  src="O.svg" alt="">
+      <img class="board-cells-img-x"  src="X.svg" alt="">
+      </div>
+    </div>
+
+  </div>
+  <button id="reset-btn">RESTART</button>
+
+  <!-- to be finished later -->
+  <div id="winner-announcer-popup-container">
+    <div id="winner-announcer-popup">
+    <p id="winner-announcer">Player WON</p>
+    <div><p id="x-scores">X:</p> <p id="o-scores">O:</p></div>
+    <div>
+      <button id="continue-btn">CONTINUE</button>
+      <button id="reset-score-btn">Reset Score</button>
+    </div>
+    </div>
+
+  </div>
+    
+
+  </main>
+
+  
+  <script src="tic-tac-toe.js"></script>
+</body>
+</html>
+
+
+

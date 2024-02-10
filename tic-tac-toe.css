@@ -1,0 +1,116 @@
+:root {
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  
+}
+
+body {
+  background-image: url(O.png);
+  
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Honk;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+
+}
+
+.row {
+  display: flex;
+}
+
+.row div {
+  width: 100px;
+  height: 100px;
+  margin:7px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 3px 8px  grey ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-cells-class {
+  cursor: pointer;
+  position: relative;
+}
+
+.board-cells-img-O {
+  cursor: not-allowed;
+  visibility: hidden;
+}
+
+.board-cells-img-x {
+  position: absolute;
+  visibility: hidden;
+}
+
+#reset-btn {
+  margin-top: 50px;
+  min-width: 130px;
+  height: 40px;
+  color: #5B9CEC;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #5B9CEC;
+  background: #ffffff
+
+
+}
+
+#reset-btn:hover {
+
+  color: #fff;
+  background: #ED7FAF ;
+  border-color: #ED7FAF ;
+}
+
+#mother-div {
+  position: relative;
+} 
+
+
+/* to be finished later */
+
+#winner-announcer-popup-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.541);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+#winner-announcer-popup {
+  position: absolute;
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  top: 50px;
+  flex-direction: column;
+  
+
+}
