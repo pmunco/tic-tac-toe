@@ -49,11 +49,13 @@ main {
 .board-cells-img-O {
   cursor: not-allowed;
   visibility: hidden;
+  width: 95%;
 }
 
 .board-cells-img-x {
   position: absolute;
   visibility: hidden;
+  width: 95%;
 }
 
 #reset-btn {
